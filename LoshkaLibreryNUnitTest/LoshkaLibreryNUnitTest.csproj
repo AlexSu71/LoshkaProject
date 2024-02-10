@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LoshkaLibrary\LoshkaLibrary.csproj" />
+    <ProjectReference Include="..\LoshkaLibrary\LoshkaDAL.csproj" />
   </ItemGroup>
 
 </Project>

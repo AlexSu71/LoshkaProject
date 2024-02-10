@@ -1,8 +1,8 @@
-﻿using LoshkaLibrary.Interfaces;
-using LoshkaLibrary.Models;
+﻿using LoshkaDAL.Interfaces;
+using LoshkaDAL.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace LoshkaLibrary.Repositories
+namespace LoshkaDAL.Repositories
 {
     public class UnitRepository(IAppDbContext context) : IUnitRepository
     {

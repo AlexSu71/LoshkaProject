@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace LoshkaLibrary.Data
+namespace LoshkaDAL.Data
 {
     public class DatabaseConfiguration(IConfiguration configuration)
     {

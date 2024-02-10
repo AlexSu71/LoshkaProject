@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using LoshkaLibrary.Models;
+using LoshkaDAL.Models;
 
-namespace LoshkaLibrary.Data.Configurations
+namespace LoshkaDAL.Data.Configurations
 {
     public class NutritionalValueConfiguration : IEntityTypeConfiguration<NutritionalValue>
     {

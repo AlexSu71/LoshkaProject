@@ -1,8 +1,8 @@
-﻿using LoshkaLibrary.Interfaces;
-using LoshkaLibrary.Models;
+﻿using LoshkaDAL.Interfaces;
+using LoshkaDAL.Models;
 using System.Linq.Expressions;
 
-namespace LoshkaLibrary.Specification
+namespace LoshkaDAL.Specification
 {
     public class UnitByNameSpecification(string unitName) : ISpecification<Unit>
     {

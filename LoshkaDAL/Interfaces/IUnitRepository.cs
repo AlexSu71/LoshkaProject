@@ -1,6 +1,6 @@
-﻿using LoshkaLibrary.Models;
+﻿using LoshkaDAL.Models;
 
-namespace LoshkaLibrary.Interfaces
+namespace LoshkaDAL.Interfaces
 {
     public interface IUnitRepository
     {

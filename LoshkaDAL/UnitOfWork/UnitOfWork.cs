@@ -1,8 +1,7 @@
-﻿using LoshkaLibrary.Data;
-using LoshkaLibrary.Interfaces;
-using LoshkaLibrary.Repositories;
+﻿using LoshkaDAL.Interfaces;
+using LoshkaDAL.Repositories;
 
-namespace LoshkaLibrary.UnitOfWork
+namespace LoshkaDAL.UnitOfWork
 {
     public class UnitOfWork(IAppDbContext context) : IUnitOfWork
     {

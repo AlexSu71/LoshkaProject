@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace LoshkaLibrary.Interfaces
+namespace LoshkaDAL.Interfaces
 {
     public interface ISpecification<T>
     {

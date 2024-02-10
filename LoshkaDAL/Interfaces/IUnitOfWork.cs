@@ -1,4 +1,4 @@
-﻿namespace LoshkaLibrary.Interfaces
+﻿namespace LoshkaDAL.Interfaces
 {
     public interface IUnitOfWork
     {

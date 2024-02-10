@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using LoshkaLibrary.Models;
+using LoshkaDAL.Models;
 using LoshkaWebApi.DTOModels.DTO;
 
 namespace LoshkaWebApi.DTOModels.Mappings

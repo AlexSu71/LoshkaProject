@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using LoshkaWebApi.DTOModels.DTO;
-using LoshkaLibrary.Interfaces;
-using LoshkaLibrary.Models;
+using LoshkaDAL.Interfaces;
+using LoshkaDAL.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

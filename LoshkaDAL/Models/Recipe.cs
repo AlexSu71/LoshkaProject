@@ -1,4 +1,4 @@
-﻿namespace LoshkaLibrary.Models
+﻿namespace LoshkaDAL.Models
 {
     public class Recipe
     {

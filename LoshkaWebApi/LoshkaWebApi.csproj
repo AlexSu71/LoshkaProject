@@ -27,7 +27,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LoshkaLibrary\LoshkaLibrary.csproj" />
+    <ProjectReference Include="..\LoshkaDAL\LoshkaDAL.csproj" />
+    <ProjectReference Include="..\LoshkaLibrary\LoshkaDAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LoshkaDAL">
+      <HintPath>..\LoshkaDAL\bin\Debug\net8.0\LoshkaDAL.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

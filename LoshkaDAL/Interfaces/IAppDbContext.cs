@@ -1,8 +1,8 @@
-﻿using LoshkaLibrary.Models;
+﻿using LoshkaDAL.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-namespace LoshkaLibrary.Interfaces
+namespace LoshkaDAL.Interfaces
 {
     public interface IAppDbContext : IDisposable
     {

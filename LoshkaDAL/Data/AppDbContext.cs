@@ -1,8 +1,8 @@
-﻿using LoshkaLibrary.Interfaces;
-using LoshkaLibrary.Models;
+﻿using LoshkaDAL.Interfaces;
+using LoshkaDAL.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace LoshkaLibrary.Data
+namespace LoshkaDAL.Data
 {
     public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options), IAppDbContext
     {
